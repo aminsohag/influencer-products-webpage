@@ -5,6 +5,7 @@
 
 /* small device */
 @media screen and (max-width: 576px) {
+    
     .nav-menu{
         display: block;
     }
@@ -22,5 +23,25 @@
         width: 100%;
         text-align: center;
         margin-top: 20px;
+    }
+
+    .logo-item{
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .cards-items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .feature-image{
+        width: 100%;
+    }
+    .feature-text{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .feature{
+        flex-direction: column-reverse;
     }
 }
